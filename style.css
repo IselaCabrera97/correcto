@@ -1,0 +1,88 @@
+header{
+background-color: rgb(236, 186, 228);
+display: flex;  
+flex-direction: row;  
+justify-content: space-between;
+width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 30px;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(224, 62, 143);
+
+}
+.presentacion h1{
+    font-size: 60px;
+    color: rgb(247, 247, 247);
+    font-family: cursive;
+}
+.presentacion p{
+    width: 70%;
+    font-size: 20px;
+    padding: 10px;
+    font-family: cursive;
+
+}
+
+img{
+    width: 150px;
+
+}
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(172, 40, 128);
+}
+#nosotros iframe{
+    padding: 50px;
+    margin: 50px;
+}
+h1{
+    font-size: 25px;
+    color: rgb(250, 242, 246);
+    font-family: cursive;
+
+}
+p{
+    font-size: 25px;
+    color: rgb(253, 250, 253);
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    background-color: rgba(223, 17, 178, 0.904);
+}
+ .caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.caja img {
+    border-color: aqua;
+}
+.caja p{
+    font-size: 12px;
+}
+
+.logo img{
+    border-radius: 50%;
+}
